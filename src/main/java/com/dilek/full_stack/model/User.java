@@ -10,7 +10,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 
-///eererre
+
 @Entity
 @Data
 @Getter
@@ -23,6 +23,6 @@ public class User {
     private String username;
     private  String name;
     private String email;
-//dwşdsldlşsdl
+
 
 }

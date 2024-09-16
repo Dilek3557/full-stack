@@ -24,7 +24,7 @@ public class UserController{
         return userRepository.findAll();
         }
 
-
+//deneme commit
     }
 
 
