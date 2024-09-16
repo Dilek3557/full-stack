@@ -1,0 +1,18 @@
+name: dilek-backend
+
+services:
+  postgres:
+    image: bitnami/postgresql:14.12.0
+    container_name:  dilek-backend-postgres
+    environment:
+      POSTGRESQL_DATABASE: deneme
+      POSTGRESQL_USERNAME: dilek12
+      POSTGRESQL_PASSWORD: 12345
+    volumes:
+      - postgres-data:/bitnami/postgresql
+    ports:
+      - 5432:5432
+
+volumes:
+  postgres-data:
+    driver: local
