@@ -1,0 +1,10 @@
+.btn-active {
+    background-color: rgba(254, 207, 239, 1);
+    color: white;
+  }
+  
+  .btn-inactive {
+    background-color: rgba(158, 143, 241, 1);
+    color: white;
+  }
+  
