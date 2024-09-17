@@ -1,4 +1,4 @@
-
+package com.dilek.full_stack.exception;
 /* Created by Arjun Gautam */
 
 import com.dilek.full_stack.exception.UserNotFoundException;
